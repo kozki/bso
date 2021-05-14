@@ -1,0 +1,8 @@
+PROGRAM=SensorBso
+
+PROGRAM_SRC_FILES=./SensorBso.c
+
+EXTRA_COMPONENTS= extras/rboot-ota extras/i2c extras/bme680 extras/mbedtls extras/paho_mqtt_c
+
+include ../../common.mk
+
