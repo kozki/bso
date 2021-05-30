@@ -10,16 +10,16 @@ An adult breathes around 15,000 litres of air every day. When we breathe pollute
 We used 100 as a threshold, because anything above this is known to be unhealty. 
 
 ### Office 
-![plot](./graphs/office_new.pdf)
+![Alt text](./graphs/office_new.png?raw=true)
 
 ### Bedroom
-![plot](./graphs/bedroom_new.jpeg)
+![Alt text](./graphs/bedroom_new.png?raw=true)
 
 ### Living room
-![plot](./graphs/liging_room.pdf)
+![Alt text](./graphs/living_room.png?raw=true)
 
 ### Testing the sensor
-![plot](./graphs/sensor_test.pdf)
+![Alt text](./graphs/sensor_test.png?raw=true)
 
 
-We can see from the graphs that the values were under the healtyh treshold, unless we tried to test it as we did in the last graph, when we blew on the sensor, just to show what happens if the pollutants are present. In that case we trigger the LED on the board to start flashing.
+We can see from the graphs that the values were under the healthy treshold, unless we tried to test it as we did in the last graph, when we blew on the sensor, just to show what happens if the pollutants are present. In that case we trigger the LED on the board to start flashing.
