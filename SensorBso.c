@@ -300,7 +300,8 @@ void user_init(void) {
 
 
     xTaskCreate(&wifi_task, "wifi_task", 256, NULL, 1, NULL);
-    xTaskCreate(&mqtt_task, "mqtt_task", 1024, NULL, 3, NULL);
     xTaskCreate(&user_task, "user_task", TASK_STACK_DEPTH, NULL, 2, NULL);
+    xTaskCreate(&mqtt_task, "mqtt_task", 1024, NULL, 3, NULL);
+    
 }
 
