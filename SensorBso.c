@@ -282,7 +282,7 @@ void user_init(void) {
     uint32_t duration = bme680_get_measurement_duration(sensor);
     bme680_values_float_t values;
 
-    while (count2 < 6000) {
+    while (count2 < 9000) {
         // trigger the sensor to start one TPHG measurement cycle
         if (bme680_force_measurement(sensor)) {
             // passive waiting until measurement results are available
