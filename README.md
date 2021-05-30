@@ -7,8 +7,13 @@ An adult breathes around 15,000 litres of air every day. When we breathe pollute
 
     #define threshold 100;
     
-We used 100 as a threshold, because anything above this is known to be unhealty. 
+We used 100 as a threshold, because anything above this is known to be unhealty. In the video it is shown how the threshold is used and the LED light starts flashing.
 
+## Demo
+![caption](https://drive.google.com/file/d/1po4968wMF3BUL7tamgRRlYVZJqJiJH0J/view?usp=sharing)
+
+
+## Graphs
 ### Office 
 ![Alt text](./graphs/office_new.png?raw=true)
 
@@ -22,4 +27,4 @@ We used 100 as a threshold, because anything above this is known to be unhealty.
 ![Alt text](./graphs/sensor_test.png?raw=true)
 
 
-We can see from the graphs that the values were under the healthy treshold, unless we tried to test it as we did in the last graph, when we blew on the sensor, just to show what happens if the pollutants are present. In that case we trigger the LED on the board to start flashing.
+We can see from the graphs that the values were under the healthy threshold, unless we tried to test it as we did in the last graph, when we blew on the sensor, just to show what happens if the pollutants are present. In that case we trigger the LED on the board to start flashing.
