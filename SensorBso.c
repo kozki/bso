@@ -13,7 +13,6 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "esp8266.h"
-#include "timers.h"
 #include "i2c/i2c.h"
 #include "queue.h"
 #define I2C_BUS       0
